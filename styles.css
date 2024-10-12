@@ -1,0 +1,62 @@
+.sidebar {
+    width: 250px; /* Ajuste a largura conforme necessário */
+    height: 100=vh; /* Altura total da janela */
+    background-color: #333; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    position: fixed; /* Fica fixa na lateral */
+}
+
+.sidebar .profile {
+    text-align: center; /* Centraliza o conteúdo */
+    margin-bottom: 20px; /* Espaço abaixo do perfil */
+}
+
+.sidebar img {
+    width: 100px; /* Ajuste o tamanho da imagem do perfil */
+    border-radius: 50%; /* Deixa a imagem redonda */
+}
+
+.sidebar nav ul {
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o preenchimento padrão */
+}
+
+.sidebar nav ul li {
+    margin: 10px 0; /* Espaçamento entre os itens */
+}
+
+.sidebar nav ul li a {
+    color: #ddd; /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado */
+    transition: color 0.3s; /* Transição suave na mudança de cor */
+}
+
+.sidebar nav ul li a:hover {
+    color: #fff; /* Muda a cor ao passar o mouse */
+}
+
+.sidebar .contact-button {
+    margin-top: 20px; /* Espaço acima do botão de contato */
+}
+
+.social-media {
+    text-align: center; /* Centraliza os ícones de mídia social */
+    margin-top: 20px; /* Espaço acima */
+}
+
+.social-media a {
+    color: #ddd; /* Cor dos ícones */
+    margin: 0 10px; /* Espaço entre os ícones */
+}
+
+
+.parallax {
+    background-image: url('C:\Users\User\Documents\GitHub\Meu Portfolio\Foto de fundo.jpg');
+    height: 100vh; /* Ocupa toda a altura da janela */
+    background-attachment: fixed; /* Isso faz a imagem ficar estática */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ 
