@@ -1,6 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .sidebar {
     width: 250px; /* Ajuste a largura conforme necessário */
-    height: 100=vh; /* Altura total da janela */
+    height: 100vh; /* Altura total da janela */
     background-color: #333; /* Cor de fundo */
     color: white; /* Cor do texto */
     padding: 20px; /* Espaçamento interno */
@@ -51,12 +56,35 @@
 }
 
 
-.parallax {
-    background-image: url('C:\Users\User\Documents\GitHub\Meu Portfolio\Foto de fundo.jpg');
-    height: 100vh; /* Ocupa toda a altura da janela */
-    background-attachment: fixed; /* Isso faz a imagem ficar estática */
+ 
+.content {
+    margin-left: 270px; /* Deixa espaço para a sidebar */
+    padding: 20px;
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+.section_inicio {
+    height: 100vh; /* Ocupa a altura total da tela */
+    display: flex; /* Usa o flexbox para centralização */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center;
+    text-align: center;
+    background-color: #0026ff; /* cor de fundo alternativa */
+    background: url('imagens\foto de fundo.jpg') no-repeat center center/cover; /* Adiciona a imagem de fundo */
+    background-attachment: fixed; /* Efeito parallax */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
- }
- 
+}
+
+.section_inicio h2 {
+    font-size: 36px; /* Tamanho do título de boas-vindas */
+    color: #444; /* Cor do título */
+    margin-bottom: 20px; /* Espaço entre o h2 e o texto animado */
+}
+
+.section_inicio h1 {
+    font-size: 28px; /* Tamanho da profissão (texto animado) */
+    color: #000000; /* Cor do texto animado */
+}
