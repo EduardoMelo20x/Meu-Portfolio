@@ -96,7 +96,7 @@ body {
     align-items: center;
     text-align: center;
     background-color: #0026ff; /* cor de fundo alternativa */
-    background: url('https://github.com/EduardoMelo20x/Meu-Portfolio/blob/main/imagens/foto%20de%20fundo.jpg?raw=true') no-repeat center center/cover; /* Adiciona a imagem de fundo */
+    background: url('https://github.com/EduardoMelo20x/Meu-Portfolio/blob/main/imagens/Foto%20fundo.jpg?raw=true') no-repeat center center/cover; /* Adiciona a imagem de fundo */
     background-attachment: fixed; /* Efeito parallax */
     background-position: center;
     background-repeat: no-repeat;
@@ -105,9 +105,9 @@ body {
 
 .section_inicio h2 {
     
-    font-size: 25px; /* Tamanho do título de boas-vindas */
+    font-size: 30px; /* Tamanho do título de boas-vindas */
     color: #ffffff; /* Cor do título */
-    margin-bottom: 2px; /* Espaço entre o h2 e o texto animado */
+    margin-bottom: 1px; /* Espaço entre o h2 e o texto animado */
 }
 
 .profissao {
@@ -117,3 +117,16 @@ body {
     color: #ffffff;
 }
 
+#typed-text::after {
+    content: "|"; /* O símbolo da barra piscante */
+    animation: blink 1s infinite; /* Animação de piscar */
+    font-weight: bold;
+    color: #ffffff; /* Cor da barra */
+    margin-left: 5px; /* Espaçamento da barra em relação ao texto */
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
