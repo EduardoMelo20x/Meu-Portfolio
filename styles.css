@@ -1,20 +1,24 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Gill Sans', sans-serif; /* Escolha a fonte desejada */
+    font-size: 1em; /* Tamanho padrão da fonte */
+    color: #ffffff; /* Cor do texto padrão */
 }
 
 .sidebar {
-    width: 250px; /* Ajuste a largura conforme necessário */
+    width: 200px; /* Ajuste a largura conforme necessário */
     height: 100vh; /* Altura total da janela */
-    background-color: #333; /* Cor de fundo */
+    background-color: #161515; /* Cor de fundo */
     color: white; /* Cor do texto */
     padding: 20px; /* Espaçamento interno */
     position: fixed; /* Fica fixa na lateral */
+    
 }
 
 .sidebar .profile {
     text-align: center; /* Centraliza o conteúdo */
-    margin-bottom: 20px; /* Espaço abaixo do perfil */
+    margin-bottom: 50px; /* Espaço abaixo do perfil */
 }
 
 .sidebar img {
@@ -23,47 +27,68 @@ body {
 }
 
 .sidebar nav ul {
+    text-align: center;
     list-style: none; /* Remove os marcadores da lista */
     padding: 0; /* Remove o preenchimento padrão */
 }
 
 .sidebar nav ul li {
-    margin: 10px 0; /* Espaçamento entre os itens */
+    margin: 35px 0; /* Espaçamento entre os itens */
 }
 
 .sidebar nav ul li a {
-    color: #ddd; /* Cor do link */
+    color: #ffffff; /* Cor do link */
     text-decoration: none; /* Remove o sublinhado */
     transition: color 0.3s; /* Transição suave na mudança de cor */
 }
 
 .sidebar nav ul li a:hover {
-    color: #fff; /* Muda a cor ao passar o mouse */
+    color: #9400D3; /* Muda a cor ao passar o mouse */
 }
 
 .sidebar .contact-button {
-    margin-top: 20px; /* Espaço acima do botão de contato */
+    text-align: center;
+    margin-top: 50px; /* Espaço acima do botão de contato */
+    background-color: #9400D3;
+    color: #ffffff; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border: 1px solid #ffffff; /* Borda sólida */
+    border-radius: 25px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave para hover */
+}
+
+.link_whats{
+    text-decoration: none; 
+    color: #ffffff;
+}
+
+.sidebar .contact-button:hover {
+    background-color: #00b30f; /* Cor de fundo ao passar o mouse */
+    color: white; /* Cor do texto ao passar o mouse */
 }
 
 .social-media {
+    font-size: 20px;
     text-align: center; /* Centraliza os ícones de mídia social */
-    margin-top: 20px; /* Espaço acima */
+    margin-top: 50px; /* Espaço acima */
 }
 
 .social-media a {
     color: #ddd; /* Cor dos ícones */
-    margin: 0 10px; /* Espaço entre os ícones */
+    margin: 0 20px; /* Espaço entre os ícones */
 }
 
 
  
 .content {
-    margin-left: 270px; /* Deixa espaço para a sidebar */
-    padding: 20px;
+    margin-left: 240px; /* Deixa espaço para a sidebar */
+    padding: 0;
     text-align: center; /* Centraliza o conteúdo */
 }
 
 .section_inicio {
+
     height: 100vh; /* Ocupa a altura total da tela */
     display: flex; /* Usa o flexbox para centralização */
     flex-direction: column; /* Organiza os elementos em coluna */
@@ -79,12 +104,16 @@ body {
 }
 
 .section_inicio h2 {
-    font-size: 36px; /* Tamanho do título de boas-vindas */
+    
+    font-size: 25px; /* Tamanho do título de boas-vindas */
     color: #ffffff; /* Cor do título */
-    margin-bottom: 20px; /* Espaço entre o h2 e o texto animado */
+    margin-bottom: 2px; /* Espaço entre o h2 e o texto animado */
 }
 
-.section_inicio h1 {
-    font-size: 28px; /* Tamanho da profissão (texto animado) */
-    color: #000000; /* Cor do texto animado */
+.profissao {
+    font-family: sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #ffffff;
 }
+
