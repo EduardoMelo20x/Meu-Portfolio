@@ -130,3 +130,26 @@ body {
     50% { opacity: 0; }
     100% { opacity: 1; }
 }
+
+.section_sobre_mim {
+    height: 100vh; /* Ocupa a altura total da tela */
+    display: flex; /* Usa o flexbox para centralização */
+    background-color: #434346; /* cor de fundo */
+}
+
+.section_resumo {
+    height: 100vh; /* Ocupa a altura total da tela */
+    display: flex; /* Usa o flexbox para centralização */
+    background-color: #9370DB; /* cor de fundo */
+}
+}
+
+.section_portfolio{
+    height: 100vh; /* Ocupa a altura total da tela */
+    display: flex; /* Usa o flexbox para centralização */
+}
+
+.section_contato{
+    height: 100vh; /* Ocupa a altura total da tela */
+    display: flex; /* Usa o flexbox para centralização */
+}
