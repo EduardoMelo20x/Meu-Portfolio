@@ -39,7 +39,7 @@ body {
 .sidebar nav ul li a {
     color: #ffffff; /* Cor do link */
     text-decoration: none; /* Remove o sublinhado */
-    transition: color 0.3s; /* Transição suave na mudança de cor */
+    transition: color 0.1s; /* Transição suave na mudança de cor */
 }
 
 .sidebar nav ul li a:hover {
