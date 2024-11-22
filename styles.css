@@ -138,6 +138,20 @@ body {
     background-color: #434346; /* cor de fundo */
 }
 
+.section_sobre_mim h2 {
+
+    text-align: center;
+
+}
+
+.sobre_mim_text {
+    
+    top: 50%;
+    left: 0%;
+    right: 100%;
+
+}
+
 .section_resumo {
     height: 100vh; /* Ocupa a altura total da tela */
     display: flex; /* Usa o flexbox para centralização */
