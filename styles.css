@@ -11,14 +11,22 @@ body {
     height: 100vh; /* Altura total da janela */
     background-color: #161515; /* Cor de fundo */
     color: white; /* Cor do texto */
-    padding: 20px; /* Espaçamento interno */
+    padding: 50px; /* Espaçamento interno */
     position: fixed; /* Fica fixa na lateral */
     
 }
 
+.sidebar .profile .Nome-Perfil {
+font-size: 30px;
+}
+
+.sidebar .Nome-Lista {
+    font-size: 18px; 
+}
+
 .sidebar .profile {
     text-align: center; /* Centraliza o conteúdo */
-    margin-bottom: 50px; /* Espaço abaixo do perfil */
+    margin-bottom: 100px; /* Espaço abaixo do perfil */
 }
 
 .sidebar img {
@@ -33,7 +41,7 @@ body {
 }
 
 .sidebar nav ul li {
-    margin: 25px 0; /* Espaçamento entre os itens */
+    margin: 60px 0; /* Espaçamento entre os itens */
 }
 
 .sidebar nav ul li a {
@@ -48,7 +56,7 @@ body {
 
 .sidebar .contact-button {
     text-align: center;
-    margin-top: 50px; /* Espaço acima do botão de contato */
+    margin-top: 135px; /* Espaço acima do botão de contato */
     background-color: #9400D3;
     color: #ffffff; /* Cor do texto do botão */
     padding: 10px 20px; /* Espaçamento interno do botão */
@@ -136,20 +144,6 @@ body {
     display: flex; /* Usa o flexbox para centralização */
     background: url('https://github.com/EduardoMelo20x/Meu-Portfolio/blob/main/imagens/Fundo%20Site.png?raw=true') no-repeat center center/cover;
     background-color: #434346; /* cor de fundo */
-}
-
-.section_sobre_mim h2 {
-
-    text-align: center;
-
-}
-
-.sobre_mim_text {
-    
-    top: 50%;
-    left: 0%;
-    right: 100%;
-
 }
 
 .section_resumo {
