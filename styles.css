@@ -7,7 +7,7 @@ body {
 }
 
 .sidebar {
-    width: 200px; /* Ajuste a largura conforme necessário */
+    width: 140px; /* Ajuste a largura conforme necessário */
     height: 100vh; /* Altura total da janela */
     background-color: #161515; /* Cor de fundo */
     color: white; /* Cor do texto */
@@ -17,7 +17,7 @@ body {
 }
 
 .sidebar .profile .Nome-Perfil {
-font-size: 30px;
+font-size: 20px;
 }
 
 .sidebar .Nome-Lista {
@@ -79,15 +79,15 @@ font-size: 30px;
 .social-media {
     font-size: 20px;
     text-align: center; /* Centraliza os ícones de mídia social */
-    margin-top: 50px; /* Espaço acima */
+    margin-top: 45px; /* Espaço acima */
 }
 
 .social-media a {
     color: #ddd; /* Cor dos ícones */
-    margin: 0 20px; /* Espaço entre os ícones */
+    margin: 0 10px; /* Espaço entre os ícones */
 }
 
-
+/*----------------------------------------------------------------------------------------------------------*/
  
 .content {
     margin-left: 240px; /* Deixa espaço para a sidebar */
@@ -139,12 +139,53 @@ font-size: 30px;
     100% { opacity: 1; }
 }
 
+/*----------------------------------------------------------------------------------------------------------*/
+
 .section_sobre_mim {
     height: 100vh; /* Ocupa a altura total da tela */
     display: flex; /* Usa o flexbox para centralização */
     background: url('https://github.com/EduardoMelo20x/Meu-Portfolio/blob/main/imagens/Fundo%20Site.png?raw=true') no-repeat center center/cover;
     background-color: #434346; /* cor de fundo */
+    position: relative; /* Cria um contexto de posicionamento */
 }
+
+.sm_h1 {
+    font-size: 100px;
+    position: absolute; /* Remove o h2 do fluxo padrão */
+    top: 10px; /* Ajuste vertical */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Ajusta o ponto de referência para o centro */
+    color: #43434677;
+}
+
+.sm_h2 {
+    font-size: 50px;
+    position: absolute; /* Remove o h2 do fluxo padrão */
+    top: 80px; /* Ajuste vertical */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Ajusta o ponto de referência para o centro */
+    
+}
+
+.section_sobre_mim .sobre_mim_text {
+    margin-left: 150px;
+    margin-top: 250px;
+    margin-right:auto;
+} 
+
+.nome_destacado {
+    color:#9400D3 ;
+}
+
+.lista_informacoes{
+    list-style-type: none;
+    text-align: left; /* Alinha o texto à esquerda */
+    margin-top: 380px;
+    margin-right:350px; 
+}
+
+
+/*----------------------------------------------------------------------------------------------------------*/
 
 .section_resumo {
     height: 100vh; /* Ocupa a altura total da tela */
@@ -153,6 +194,7 @@ font-size: 30px;
     background-color: #503d75; /* cor de fundo */
 }
 
+/*----------------------------------------------------------------------------------------------------------*/
 
 .section_portfolio{
     height: 100vh; /* Ocupa a altura total da tela */
@@ -160,6 +202,8 @@ font-size: 30px;
     background: url('https://github.com/EduardoMelo20x/Meu-Portfolio/blob/main/imagens/Fundo%20Site.png?raw=true') no-repeat center center/cover;
     background-color: #434346; /* cor de fundo */
 }
+
+/*----------------------------------------------------------------------------------------------------------*/
 
 .section_contato{
     height: 100vh; /* Ocupa a altura total da tela */
