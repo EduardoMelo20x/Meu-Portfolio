@@ -167,10 +167,15 @@ font-size: 20px;
     
 }
 
+.section_sobre_mim .h2_text{
+    color: #ffffff;
+}
+
 .section_sobre_mim .sobre_mim_text {
     margin-left: 150px;
     margin-top: 250px;
     margin-right:auto;
+    color: #c2c2c2;
 } 
 
 .nome_destacado {
@@ -178,12 +183,29 @@ font-size: 20px;
 }
 
 .lista_informacoes{
+    font-size: 20px;
     list-style-type: none;
     text-align: left; /* Alinha o texto à esquerda */
-    margin-top: 380px;
+    margin-top: 340px;
     margin-right:350px; 
 }
 
+.itens_listados{
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #c2c2c2;    
+}
+
+.lista_informacoes a{
+    text-decoration: none;
+    color: #9400D3;
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+
+.lista_informacoes span{
+    font-weight: bold; /* Deixa o texto em negrito */
+    color: #ffffff;
+}
 
 /*----------------------------------------------------------------------------------------------------------*/
 
